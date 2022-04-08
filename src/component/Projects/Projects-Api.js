@@ -24,7 +24,7 @@ const data = [
     id: 4,
     title: "Classic Chat App",
     desc: "This is a realtime group chat application where multiply user can chat,send pictures, also admin user can create, add ,remove, users and ",
-    link :"",
+    link :"https://harmonious-crisp-fa6a4b.netlify.app/",
   },
   // {
   //   id: 6,
