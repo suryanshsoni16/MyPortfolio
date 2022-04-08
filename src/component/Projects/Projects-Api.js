@@ -20,12 +20,12 @@ const data = [
     link : "https://tranquil-mandazi-b7672d.netlify.app/",
   },
 
-  // {
-  //   id: 5,
-  //   title: "CEO Marketing",
-  //   desc: "always free from repetition, injected humour, or non-characteristic words etc.",
-  //   link :"",
-  // },
+  {
+    id: 4,
+    title: "Classic Chat App",
+    desc: "This is a realtime group chat application where multiply user can chat,send pictures, also admin user can create, add ,remove, users and ",
+    link :"",
+  },
   // {
   //   id: 6,
   //   title: "Personal Portfolio April",
