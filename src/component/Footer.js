@@ -7,10 +7,16 @@ const Footer = () => {
       <footer>
         <div className='conatiner text-center top'>
           <div className='img'>
-            <img src={logo} alt='' style={{marginTop:"0px" ,height:"70px" ,width:"70px" , borderRadius:"50px"}}/>
+            <img src={logo} alt='' style={
+              {marginTop:"0px",
+              height:"70px" ,
+              width:"70px" , 
+              borderRadius:"50px"
+               }}/>
           </div>
           <p>Made by Suryansh 🥎</p>
-          <p>@2022 Thankyou 🎃.</p>
+          <p>Thankyou</p>
+          <p>@2022 Copyright All Rights Reserved </p>
 
         </div>
       </footer>

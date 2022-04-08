@@ -56,7 +56,7 @@ const Contact = () => {
                 <div className='details'>
                   <h1>Suryansh Soni</h1>
                   {/* <p>Fronted Developer</p> */}
-                  <p>I am looking for Fronted Developer and Software Engineer role as a fresher.</p> <br />
+                  <p>I am looking for Fronted Developer and Software Engineer role as fresher.</p> <br />
                   <p>Phone: +918109348378</p>
                   <p>Email: suyanshsoni16@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
