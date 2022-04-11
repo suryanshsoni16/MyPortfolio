@@ -30,7 +30,7 @@ const Header = () => {
                 <a href='#about'>about</a>
               </li>
               <li>
-                <a href='#' title="Download my resume ">resume</a>
+                <a href='https://drive.google.com/file/d/1uSV39O8PDtEN30C8kXG8v65ob-JbtsUC/view?usp=sharing' title="Download my resume ">resume</a>
               </li>
               <li>
                 <a href='#blog' title="adding soon 😄">blog</a>
