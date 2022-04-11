@@ -40,6 +40,9 @@
 .Contact .right button i {
   margin-left: 10px;
 }
+img{
+ max-width:100%; 
+}
 
 @media (max-width: 768px) {
   .Contact .d_flex {
