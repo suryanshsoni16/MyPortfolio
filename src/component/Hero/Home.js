@@ -70,7 +70,7 @@ const Home = () => {
               <br />
               <br />
               <hr />
-              <button className="btn_resume" onClick={() => window.open("https://mailto: suryanshsoni16@gmail.com")}>Download Resume</button>
+              <button className="btn_resume" onClick={() => window.open("https://drive.google.com/file/d/1uSV39O8PDtEN30C8kXG8v65ob-JbtsUC/view?usp=sharing")}>Download Resume</button>
             </div>
           </div>
         </div>
