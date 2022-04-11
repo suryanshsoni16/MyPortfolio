@@ -23,14 +23,14 @@ const data = [
   {
     id: 4,
     title: "Classic Chat App",
-    desc: "This is a realtime group chat application where multiply user can chat,send pictures, also admin user can create, add ,remove, users and ",
+    desc: "This is a realtime group chat application where multiply user can chat,send pictures, also admin user can create, add ,remove, users at realtime ",
     link :"https://harmonious-crisp-fa6a4b.netlify.app/",
   },
-  // {
-  //   id: 6,
-  //   title: "Personal Portfolio April",
-  //   desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-  //   link :"",
-  // },
+  {
+    id: 5,
+    title: "WordHunt",
+    desc: " It is a Dictionary app made using ReactJS material-ui In which user can search a word in over 12 languages will get the result ,example,audio and synonyms of word . can also use darl and loght mode",
+    link :"https://vermillion-cendol-24f23d.netlify.app",
+  },
 ]
 export default data
