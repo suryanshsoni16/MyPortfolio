@@ -17,6 +17,7 @@ const Footer = () => {
           <p>Made by Suryansh 🥎</p>
           <p>Thankyou</p>
           <p>@2022 Copyright All Rights Reserved </p>
+          <p>Built using React 😎 </p>
 
         </div>
       </footer>
