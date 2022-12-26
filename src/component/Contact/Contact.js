@@ -56,7 +56,7 @@ const Contact = () => {
                 <div className='details'>
                   <h1>Suryansh Soni</h1>
                   {/* <p>Fronted Developer</p> */}
-                  <p>I am looking for Fronted Developer and Software Engineer role as fresher.</p> <br />
+                  <p>I am looking for Fronted Developer and Software Engineer role.</p> <br />
                   <p>Phone: +918109348378</p>
                   <p>Email: suyanshsoni16@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
@@ -64,7 +64,7 @@ const Contact = () => {
                   <button className='btn_shadow' title="GitHub" onClick={() => window.open("https://github.com/tigerbhai16")}>
                   <i class="fab fa-github"></i>
                   </button>
-                  <button className='btn_shadow' title="LinkedIn" onClick={() => window.open("https://www.linkedin.com/in/suryansh-soni16")}>
+                  <button className='btn_shadow' title="LinkedIn" onClick={() => window.open("https://www.linkedin.com/in/suryansh-soni-86b1b5251/")}>
                     <i class='fab fa-linkedin-in' ></i>
                   </button>
                   <button className='btn_shadow' title="WhatsApp"  onClick={() => window.open("https://wa.me/918109348378")}>

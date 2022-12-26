@@ -6,7 +6,7 @@ const AboutApi = [
     title: "Graduation",
     desc: "Completed B.Tech in Information Technology CGPA of 8.11",
     time: "2017-2021",
-    link: "#",
+    // link: "#",
   },
   {
     id: 2,
@@ -15,9 +15,9 @@ const AboutApi = [
     title: "Schooling",
     desc: "Completed schooling in CBSE board with Grade of A+ and B",
     time: "2015-2017",
-    link: "#",
+    // link: "#",
   },
-  
+
   {
     id: 3,
     category: "education",
@@ -34,7 +34,7 @@ const AboutApi = [
     title: "IOT workshop",
     desc: "Attended 2 day workshop conducted by IIT Varanasi",
     time: "feb 2018",
-    link: "https://drive.google.com/file/d/1oPc6OhWPV1ce9yuKgIJmMUcUOMevPjJV/view?usp=sharing"
+    link: "https://drive.google.com/file/d/1oPc6OhWPV1ce9yuKgIJmMUcUOMevPjJV/view?usp=sharing",
   },
   {
     id: 6,
@@ -72,8 +72,15 @@ const AboutApi = [
     time: " ",
     link: "https://drive.google.com/drive/folders/17pLFdoJO4Bjd04-GoRNn1-_VJAQiyhW2?usp=sharing",
   },
+  {
+    id: 10,
+    category: "education",
+    place: "Software Engineer(Frontend)",
+    title: "Radiansys",
+    desc: "Working as a front-end developer developed more than 5 project including social action, logistics app and dynamic dashboards for admin panel. Integrated API's in complex flows and Implemented many latest react and js libraries.",
+    time: "8 months ",
+    // link: "https://drive.google.com/drive/folders/17pLFdoJO4Bjd04-GoRNn1-_VJAQiyhW2?usp=sharing",
+  },
+];
 
- 
-]
-
-export default AboutApi
+export default AboutApi;

@@ -31,7 +31,7 @@ const Home = () => {
                   <button className='btn_shadow' title="GitHub" onClick={() => window.open("https://github.com/tigerbhai16")}>
                   <i class="fab fa-github"></i>
                   </button>
-                  <button className='btn_shadow' title="LinkedIn" onClick={() => window.open("https://www.linkedin.com/in/suryansh-soni16")}>
+                  <button className='btn_shadow' title="LinkedIn" onClick={() => window.open("https://www.linkedin.com/in/suryansh-soni-86b1b5251/")}>
                     <i class='fab fa-linkedin-in' ></i>
                   </button>
                   <button className='btn_shadow' title="WhatsApp"  onClick={() => window.open("https://wa.me/918109348378")}>
@@ -42,7 +42,7 @@ const Home = () => {
                   </button>
                 </div>
               </div>
-             
+              
             </div>
           </div>
           <div className='right'> 
@@ -70,7 +70,7 @@ const Home = () => {
               <br />
               <br />
               <hr />
-              <button className="btn_resume" onClick={() => window.open("https://drive.google.com/file/d/1uSV39O8PDtEN30C8kXG8v65ob-JbtsUC/view?usp=sharing")}>Download Resume</button>
+              <button className="btn_resume" onClick={() => window.open("https://drive.google.com/file/d/17LiE5YS8X311R-CT7SOI4QA3LmhhlrSv/view?usp=sharing")}>Download Resume</button>
             </div>
           </div>
         </div>
