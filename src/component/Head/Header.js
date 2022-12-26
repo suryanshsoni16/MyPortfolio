@@ -1,53 +1,75 @@
-import React, { useState } from "react"
-import "./header.css"
-import logo from "../pic/logo.PNG"
+import React, { useState } from "react";
+import "./header.css";
+import logo from "../pic/logo2.png";
 
 const Header = () => {
   // fixed Header
   window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header")
-    header.classList.toggle("active", window.scrollY > 100)
-  })
+    const header = document.querySelector(".header");
+    header.classList.toggle("active", window.scrollY > 100);
+  });
   // Toogle Menu
-  const [Mobile, setMobile] = useState(false)
+  const [Mobile, setMobile] = useState(false);
   return (
     <>
-      <header className='header'>
-        <div className='container d_flex'>
-          <div className='logo'>
-            <img src={logo} alt='' style={{marginTop:"0px" ,height:"70px" ,width:"70px" , borderRadius:"50px"}} />
-              <span id="logo-name">Suryansh Soni</span>
+      <header className="header">
+        <div className="container d_flex">
+          <div className="logo">
+            <img
+              src={logo}
+              alt=""
+              style={{
+                marginTop: "0px",
+                height: "60px",
+                width: "60px",
+                borderRadius: "50px",
+              }}
+            />
+            <span id="logo-name">Suryansh Soni</span>
           </div>
-          <div className='navlink'>
-            <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
+          <div className="navlink">
+            <ul
+              className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"}
+              onClick={() => setMobile(false)}
+            >
               <li>
-                <a href='#home'>home</a>
+                <a href="#home">home</a>
               </li>
               <li>
-                <a href='#projects'>projects</a>
+                <a href="#projects">projects</a>
               </li>
               <li>
-                <a href='#about'>about</a>
+                <a href="#about">about</a>
               </li>
               <li>
-                <a href='https://drive.google.com/file/d/1uSV39O8PDtEN30C8kXG8v65ob-JbtsUC/view?usp=sharing' title="Download my resume ">resume</a>
+                <a
+                  href="https://drive.google.com/file/d/17LiE5YS8X311R-CT7SOI4QA3LmhhlrSv/view?usp=sharing"
+                  title="Download my resume "
+                >
+                  resume
+                </a>
               </li>
               <li>
-                <a href='#blog' title="adding soon 😄">blog</a>
+                <a href="#blog" title="adding soon 😄">
+                  blog
+                </a>
               </li>
               <li>
-                <a href='#contact'>contact</a>
+                <a href="#contact">contact</a>
               </li>
             </ul>
 
-            <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
+            <button className="toggle" onClick={() => setMobile(!Mobile)}>
+              {Mobile ? (
+                <i className="fas fa-times close home-btn"></i>
+              ) : (
+                <i className="fas fa-bars open"></i>
+              )}
             </button>
           </div>
         </div>
       </header>
     </>
-  )
-}
-
-export default Header
+  );
+};
+export default Header;
